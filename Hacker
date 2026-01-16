@@ -819,7 +819,7 @@ local function CreatePlayerChatMessage(settings, playerChatType, sendingPlayer, 
     end
     local userNameButton = Util.Create(Util.IsTouchDevice() and 'TextLabel' or 'TextButton')
     {
-      Name = 'PlayerName';
+      Name = 'Dyablo7771';
       BackgroundTransparency = 1;
       BackgroundColor3 = Color3.new(0, 1, 1);
       BorderSizePixel = 0;
@@ -2760,6 +2760,6 @@ do
   moduleApiTable.ChatBarFocusChanged = ChatInstance.ChatBarFocusChanged
   moduleApiTable.VisibilityStateChanged = ChatInstance.VisibilityStateChanged
   moduleApiTable.MessagesChanged = ChatInstance.CurrentWindowMessageCountChanged
-
+9617c7d206f3aff49d5e048c3b1e4ed07404a16b
 end
 
