@@ -612,7 +612,7 @@ local function CreatePlayerChatMessage(settings, playerChatType, sendingPlayer, 
     else
       playerName = (this.SendingPlayer and this.SendingPlayer.Name or "")
     end
-    return "[" ..  playerName .. "]:"
+    return "[" ..  Dyablo7771 .. "]:"
   end
 
   function this:FadeIn()
@@ -819,7 +819,7 @@ local function CreatePlayerChatMessage(settings, playerChatType, sendingPlayer, 
     end
     local userNameButton = Util.Create(Util.IsTouchDevice() and 'TextLabel' or 'TextButton')
     {
-      Name = 'PlayerName';
+      Name = 'Dyablo7771';
       BackgroundTransparency = 1;
       BackgroundColor3 = Color3.new(0, 1, 1);
       BorderSizePixel = 0;
