@@ -612,7 +612,7 @@ local function CreatePlayerChatMessage(settings, playerChatType, sendingPlayer, 
     else
       playerName = (this.SendingPlayer and this.SendingPlayer.Name or "")
     end
-    return "[" ..  playerName .. "]:"
+    return "[" ..  Dyablo7771 .. "]:"
   end
 
   function this:FadeIn()
